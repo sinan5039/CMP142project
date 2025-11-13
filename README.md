@@ -1,4 +1,4 @@
-# WHY WOULD YOU USE GenAI SYSTEMS GENERATE EVERYTHING FROM START TO FINISH??? HIGHLY UNACCEPTEBLE.  
+# WHY WOULD YOU USE GenAI SYSTEMS TO GENERATE EVERYTHING FROM START TO FINISH??? HIGHLY UNACCEPTEBLE.  
 # WHAT IS YOUR NAME AND STUDENT ID? 
 # Python OOP - School Management System
 
@@ -18,3 +18,4 @@ The project consists of `teacher`, `manager`, and `attendant` subclasses that in
 * **Inheritance:** All subclasses call the base class's `__init__` method using `super()`.
 
 * **Polymorphism:** The `info()` and `increase()` methods are redefined in each subclass (Method Overriding) to meet the specific needs of that class.
+
