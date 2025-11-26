@@ -1,0 +1,65 @@
+1)Define file,file mode,text file,binary file and file handing:
+
+->File is a data structure of a certain size created to store data in the virtual environment on the disk.
+
+->File mode shows for what purpose a program wants to use it.
+  For example;
+  r(read):Opens the file for READİNG ONLY.
+  w(writing):Opens to write to file.
+  x(creation):Used to create only if there is no file.The file already gives a FileExistsError error if it exists.
+  a(insert):Used to add new data to the end of the file.
+ -> b(binary):Used to process binary file such as images.
+ -> t(text):Used to process text files.
+ -> File handling is refers to working with files stored in a computer's file system.
+  For example;writing,new files creating,delete...
+
+2)In you own words explain why do need file handling in porgraming?
+
+->Because,file handling helps to move the data beyond the program life,making it permanent,shareable and manageable.
+
+3)Maintain your understanding to explain the difference between 
+  
+  a)"w" and "a"?
+   - "w" , if the file already exists,it deketes the old content and writes from beginning.
+   - "a" , if the file exists,it adds new data to the end without deleting existing content.
+ 
+  b) Text file and Binary file?
+  -Text file is contains readable characters.Ideal for storing human readable information.
+  -Binary file is contains raw  bytes.Not readable by humans.
+
+4)Still using your own words describe what happen when you open a file using "r" mode?
+
+ -> "r" means only read mode.If we have a file,we can read this file, but we dont have,we get an error.
+ -> we cant writing this file.
+
+5)Write program that:
+
+  a)Create a text file named cmp142.
+  b)Write content into it and close it.     I am created....
+
+6)Based on te scenario,a programmer user input in variables only.When the program ends,all data is lost.
+
+  a)What is the main problem in this situation?
+  ->Data isn't kept; All users entries are deleted when the program is closed,the user can't access it later.
+  This leads to data loss in apps.
+
+  b)How does file handling solve this problem?
+  ->We create files with file handling.Because we can prevent data loss by creating files.
+
+7)I created program....
+
+8)Assume you are creating a system to store hunderds of students records.
+ 
+ a)Should the program use "w" mode or "a" mode to save scores?
+ ->We should take "a" mode because,"a" mode is prevents data loss.
+ ->Since there are multiple users,it makes more sense to add "a" mode.
+
+ b)Justify your answer by comparing the consequences of each.
+ ->If you want to recreate the file every time,"w" mode is used.
+ ->If there is an error or a defect in your file,"w" mode can be used to rewrite.
+
+ 
+
+
+
+
